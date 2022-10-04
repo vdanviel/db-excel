@@ -1,8 +1,8 @@
 <?php
     #GERANDO O XLSX
 
-    //$db = new PDO("mysql:dbname=xlsx;host=localhost","root","");
-    $db = new PDO("mysql:dbname=id17747588_xlsx;host=localhost","id17747588_watt1237","20512806@OkKK");
+    $db = new PDO("mysql:dbname=xlsx;host=localhost","root","");
+    //$db = new PDO("mysql:dbname=id17747588_xlsx;host=localhost","id17747588_watt1237","20512806@OkKK");
 
     #antigo nome da tabela (na hora de codar é nesse)
     $filename = "Tabela dos Clientes.csv";

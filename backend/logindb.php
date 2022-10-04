@@ -2,8 +2,8 @@
 session_start();
 
 #entrando no banco
-//$db = new PDO("mysql:dbname=xlsx;host=localhost","root","");
-$db = new PDO("mysql:dbname=id17747588_xlsx;host=localhost","id17747588_watt1237","20512806@OkKK");
+$db = new PDO("mysql:dbname=xlsx;host=localhost","root","");
+//$db = new PDO("mysql:dbname=id17747588_xlsx;host=localhost","id17747588_watt1237","20512806@OkKK");
 
 if (isset($_POST['btn'])) {
     
