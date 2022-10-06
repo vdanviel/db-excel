@@ -24,15 +24,15 @@ if(isset($_POST['agora'])){
         $mail->Host = "smtp.gmail.com";#host do SMTP
         $mail->SMTPAuth = true;#indica que quer se autenticar no host do SMTP
         #AUTENTICANDO-SE NO SMTP
-        $mail->Username = "uplab.developers@gmail.com";#usuário SMTP
-        $mail->Password = "20512806";#senha SMTP
+        $mail->Username = "email@email.com";#usuário SMTP
+        $mail->Password = "password";#senha SMTP
         $mail->Port=587;#587 ou 465 são as portas SMTP
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS; #encripta a mensagem
         $mail->addAttachment("../xlsx-files/".$file);#adicionar anexo
         $mail->Body = utf8_decode("Email do site Beginner Tests, lista de clientes em anexo.");
 
         #quem ira enviar o email
-        $mail->setFrom('uplab.developers@gmail.com');
+        $mail->setFrom('email@email.com');
 
         #assunto do email
         $mail->Subject = utf8_decode("Não responda. Lista dos Clientes - Site.");
